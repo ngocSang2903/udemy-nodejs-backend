@@ -4,7 +4,8 @@
   "description": "leraning",
   "main": "service.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/service.js"
   },
   "keywords": [
     "nodejs.react"
@@ -12,6 +13,12 @@
   "author": "SangNN",
   "license": "ISC",
   "dependencies": {
-    "express": "4.18.2"
+    "dotenv": "16.4.5",
+    "ejs": "3.1.8",
+    "express": "4.18.2",
+    "mysql2": "2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.7"
   }
 }
