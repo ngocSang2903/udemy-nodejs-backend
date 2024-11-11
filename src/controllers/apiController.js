@@ -30,7 +30,7 @@ const putUser = async (req,res) => {
     let name = req.body.name;
     let city = req.body.city;
     let userID = req.body.userID;
-    let users = await user.create({_id : userID
+    let users = await user.updateOne({_id : userID
     },{
         email : email,
         name : name,
